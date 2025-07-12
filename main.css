@@ -1,0 +1,73 @@
+.bg {
+    background-color: #bcbcbc;
+}
+
+.centering {
+    text-align: center;
+}
+
+.p-20 {
+    padding: 200px;
+}
+
+.pt-4 {
+    padding-top: 40px;
+}
+/* Custom Styles for Admin Payment Proofs */
+.ui.segment {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ui.image {
+    margin-top: 10px;
+}
+
+.ui.blue.button {
+    margin-top: 10px;
+}
+
+.ui.green.button {
+    margin-top: 10px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.ui.menu, .ui.vertical.menu {
+    border-radius: 8px;
+}
+
+.ui.container {
+    margin-top: 2rem;
+}
+
+.ui.green.message, .ui.red.message {
+    width: 100%;
+}
+
+.ui.button {
+    border-radius: 5px;
+}
+
+.ui.table {
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .ui.grid {
+        display: block;
+    }
+
+    .four.wide.column {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .ui.inverted.menu {
+        flex-direction: column;
+    }
+}
